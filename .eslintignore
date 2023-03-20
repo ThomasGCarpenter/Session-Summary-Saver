@@ -1,0 +1,7 @@
+.ebextensions/*
+.elasticbeanstalk/*
+.vscode/*
+.git/*
+public/*
+application/client/compiled-test.js
+node_modules/*

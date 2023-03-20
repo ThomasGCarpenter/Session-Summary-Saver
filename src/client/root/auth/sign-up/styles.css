@@ -1,0 +1,51 @@
+.sign-up {
+  min-height: 100vh;
+
+  form {
+    margin: 40px auto;
+    /*width: 400px;*/
+    width: 600px;
+    padding: 2em;
+    background: white;
+    border-radius: 25px;
+    font-size: 16px;
+
+    h2 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    .alert-danger {
+      margin: 20px 0;
+    }
+
+    label {
+      color: black;
+    }
+    input {
+      margin-bottom: 10px;
+    }
+    button {
+      margin-left: 0;
+    }
+
+    .checkbox-label {
+      vertical-align: top;
+      margin-left: 10px;
+    }
+    .tos-detail-text {
+      margin-left: 20px;
+    }
+    .sign-up-button {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+    .sign-in-section {
+      margin-top: 20px;
+      text-align: center;
+      font-style: italic;
+    }
+  }
+}

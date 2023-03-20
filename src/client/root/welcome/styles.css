@@ -1,0 +1,16 @@
+.welcome {
+  font-size: 16px;
+
+  li {
+    line-height: 2;
+  }
+
+  .welcome-link {
+    color: #286090;
+    margin: 0 5px;
+    &:hover {
+      cursor: pointer;
+      color: #142f47;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.module__heading {
+  padding: 10px;
+}
+
+.module__heading__title {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.module__heading__button {
+  margin-left: 15px;
+}
+
+.module__footer__button-left {
+  margin-left: 10px;
+}
+.module__footer__button-right {
+  margin-right: 10px;
+}

@@ -1,0 +1,77 @@
+/* Application wide styles */
+.error {
+  color: #a94442;
+  background-color: #f2dede !important;
+}
+.panel-title {
+  line-height: 34px;
+}
+
+.panel {
+  .alert {
+    margin: 0;
+    border: none;
+    border-radius: 0px;
+  }
+}
+
+.panel-footer {
+  .pull-left {
+    .btn {
+      margin-right: 8px;
+    }
+  }
+  .pull-right {
+    .btn {
+      margin-left: 8px;
+    }
+  }
+}
+
+.user-interface-error {
+  width: 500px;
+  margin: 100px auto;
+  padding: 25px;
+  background: #f4dede;
+  .error-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}
+
+.form-module-header {
+  background: #eeeeee;
+  padding: 5px 10px;
+  border-bottom: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+  font-weight: 500;
+  line-height: 30px;
+  .btn {
+    margin-left: 8px;
+  }
+}
+.form-module-body {
+  margin: 15px;
+}
+
+.alert-danger {
+  .close {
+    font-size: 30px;
+    line-height: 0.6;
+  }
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  /* Prevent auto zoom from keyboard */
+  input {
+    font-size: 16px !important;
+  }
+  .button-text {
+    display: none;
+  }
+  button .fa {
+    margin-right: 0px;
+  }
+}
